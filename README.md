@@ -22,7 +22,7 @@ AutoClicker/
 ├── dist/
   └── main.exe # Готовый исполняемый файл для Windows
 ├── main.py # Исходный код автокликера
-├── requirements.txt # Зависимости для запуска из Python
+└── requirements.txt # Зависимости для запуска из Python
 ```
 
 ---
@@ -43,6 +43,9 @@ AutoClicker/
 Затем выполните:
 
 ```bash
+python -m venv venv
+source venv/bin/activate  # Для Linux/Mac
+venv\Scripts\activate     # Для Windows
 pip install -r requirements.txt
 ```
 #### 2. Запуск
